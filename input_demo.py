@@ -1,3 +1,2 @@
-num = int(input('Enter a number: '))
-num += 20
-print(num)
+num = int(float(input('Enter a number: ')))
+print("hello" * num)
