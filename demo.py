@@ -1,2 +1,11 @@
-msg = "Welcome to this program!
-print(msg)
+# try:
+#     x = int(input('Enter a number: '))
+# except:
+#     print('That\s not a valid number')
+
+while True:
+    try:
+        x = int(input('Enter a number: '))
+        break
+    except:
+        print('\nAtempted Input\n')
