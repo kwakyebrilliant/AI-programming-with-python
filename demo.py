@@ -9,3 +9,5 @@ while True:
         break
     except:
         print('\nAtempted Input\n')
+    finally:
+        print('\nAtempted Input\n')
