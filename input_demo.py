@@ -1,2 +1,3 @@
-name = input('Enter a name: ')
-print("Hello", name.title())
+num = input('Enter a number: ')
+num += 20
+print(num)
